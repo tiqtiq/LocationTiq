@@ -68,9 +68,15 @@ public struct Coordinate : Hashable, Sendable {
 extension Coordinate {
     /// Returns `true` if the specified coordinate is valid, `false` otherwise.
     public var isValid: Bool {
-        wip(true) // TODO: validate
+        if latitude > 90 || latitude < -90 {
+            return false
+        } else if longitude > 180 || longitude < -180 {
+            return false
+        } else {
+            return true
+        }
     }
 }
 
-
 #endif
+

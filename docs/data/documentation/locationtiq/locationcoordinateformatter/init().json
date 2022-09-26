@@ -1,0 +1,165 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@LocationTiq@objc(cs)LocationCoordinateFormatter(im)init",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "override"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/locationcoordinateformatter\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between Coordinate values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter\/init()"
+}
+}
+}

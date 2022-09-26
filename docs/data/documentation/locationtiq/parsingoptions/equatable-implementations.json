@@ -1,0 +1,169 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/parsingoptions\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options affecting how a coordinate is parsed from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/!=(_:_:)"
+}
+}
+}

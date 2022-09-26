@@ -1,0 +1,169 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/D"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq15UTMLatitudeBandO1DyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "D"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "UTMLatitudeBand.D"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "D"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/utmlatitudeband\/d"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/D": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "D"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/D",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.D",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/d"
+}
+}
+}

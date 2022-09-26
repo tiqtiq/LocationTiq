@@ -1,0 +1,208 @@
+{
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMLatitudeBand",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidLatitudeBand"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq12ParsingErrorO19invalidLatitudeBandyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "invalidLatitudeBand"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "ParsingError.invalidLatitudeBand"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "invalidLatitudeBand"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/parsingerror\/invalidlatitudeband"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError": {
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingError",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMLatitudeBand",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidLatitudeBand",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidlatitudeband"
+}
+}
+}

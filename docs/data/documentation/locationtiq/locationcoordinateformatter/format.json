@@ -1,0 +1,262 @@
+{
+  "abstract" : [
+    {
+      "text" : "The coordinate format used by the receiver.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/format"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq0A19CoordinateFormatterC6formatAA0C6FormatOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "format"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+        "text" : "CoordinateFormat"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "format"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "format"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+              "text" : "CoordinateFormat"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/locationcoordinateformatter\/format"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat": {
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between Coordinate values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter/format": {
+  "abstract" : [
+    {
+      "text" : "The coordinate format used by the receiver.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/format",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "format",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter\/format"
+}
+}
+}

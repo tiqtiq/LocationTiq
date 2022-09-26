@@ -1,0 +1,200 @@
+{
+  "abstract" : [
+    {
+      "text" : "Degrees and Decimal Minutes (DDM).",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesDecimalMinutes"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq16CoordinateFormatO21degreesDecimalMinutesyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "degreesDecimalMinutes"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "CoordinateFormat.degreesDecimalMinutes"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "degreesDecimalMinutes"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Commonly used by electronic navigation equipment.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/coordinateformat\/degreesdecimalminutes"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat": {
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/degreesDecimalMinutes": {
+  "abstract" : [
+    {
+      "text" : "Degrees and Decimal Minutes (DDM).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "degreesDecimalMinutes"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesDecimalMinutes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateFormat.degreesDecimalMinutes",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/degreesdecimalminutes"
+}
+}
+}

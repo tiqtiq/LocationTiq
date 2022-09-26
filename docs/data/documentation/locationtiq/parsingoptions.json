@@ -1,0 +1,413 @@
+{
+  "abstract" : [
+    {
+      "text" : "Options affecting how a coordinate is parsed from a string.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq14ParsingOptionsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ParsingOptions"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ParsingOptions"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ParsingOptions"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ParsingOptions"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/s25ExpressibleByArrayLiteralP",
+        "doc:\/\/LocationTiq\/s9OptionSetP",
+        "doc:\/\/LocationTiq\/SY",
+        "doc:\/\/LocationTiq\/s10SetAlgebraP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/rawValue"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/caseInsensitive",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/trimmed"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/Equatable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/OptionSet-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/SetAlgebra-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/parsingoptions"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SY": {
+  "identifier" : "doc:\/\/LocationTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options affecting how a coordinate is parsed from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/OptionSet-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/OptionSet-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OptionSet Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/optionset-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/SetAlgebra-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/SetAlgebra-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SetAlgebra Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/setalgebra-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/caseInsensitive": {
+  "abstract" : [
+    {
+      "text" : "Disregard case when matching strings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "caseInsensitive"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/caseInsensitive",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "caseInsensitive",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/caseinsensitive"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/init(rawvalue:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/rawValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/rawValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/rawvalue"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions/trimmed": {
+  "abstract" : [
+    {
+      "text" : "Ignore whitespace at the beginning and end of the string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "trimmed"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions\/trimmed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "trimmed",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions\/trimmed"
+},
+"doc://LocationTiq/s10SetAlgebraP": {
+  "identifier" : "doc:\/\/LocationTiq\/s10SetAlgebraP",
+  "title" : "Swift.SetAlgebra",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s25ExpressibleByArrayLiteralP": {
+  "identifier" : "doc:\/\/LocationTiq\/s25ExpressibleByArrayLiteralP",
+  "title" : "Swift.ExpressibleByArrayLiteral",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s9OptionSetP": {
+  "identifier" : "doc:\/\/LocationTiq\/s9OptionSetP",
+  "title" : "Swift.OptionSet",
+  "type" : "unresolvable"
+}
+}
+}

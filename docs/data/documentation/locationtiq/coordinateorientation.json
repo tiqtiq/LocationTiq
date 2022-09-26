@@ -1,0 +1,298 @@
+{
+  "abstract" : [
+    {
+      "text" : "Defines whether a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is intended to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq21CoordinateOrientationO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CoordinateOrientation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CoordinateOrientation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "CoordinateOrientation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CoordinateOrientation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/latitude",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/longitude",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/none"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/coordinateorientation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateOrientation": {
+  "abstract" : [
+    {
+      "text" : "Defines whether a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is intended to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateOrientation",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateorientation"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateOrientation/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateorientation\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateOrientation/latitude": {
+  "abstract" : [
+    {
+      "text" : "The coordinate represents a latitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "latitude"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/latitude",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateOrientation.latitude",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateorientation\/latitude"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateOrientation/longitude": {
+  "abstract" : [
+    {
+      "text" : "The coordinate represents a longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "longitude"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/longitude",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateOrientation.longitude",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateorientation\/longitude"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateOrientation/none": {
+  "abstract" : [
+    {
+      "text" : "Unspecified.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateOrientation\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateOrientation.none",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateorientation\/none"
+}
+}
+}

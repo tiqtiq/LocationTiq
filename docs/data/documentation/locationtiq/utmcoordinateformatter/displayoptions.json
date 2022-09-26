@@ -1,0 +1,270 @@
+{
+  "abstract" : [
+    {
+      "text" : "Options for displaying UTM coordinates.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/displayOptions"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq22UTMCoordinateFormatterC14displayOptionsAA07DisplayF0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "displayOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+        "text" : "DisplayOptions"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "displayOptions"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "displayOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+              "text" : "DisplayOptions"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Default options include ",
+              "type" : "text"
+            },
+            {
+              "code" : "DisplayOptions.suffx",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".`",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/utmcoordinateformatter\/displayoptions"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions": {
+  "abstract" : [
+    {
+      "text" : "Display options",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DisplayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their string representations using the Universal Transverse Mercator (UTM) coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/displayOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for displaying UTM coordinates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/displayOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "displayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/displayoptions"
+}
+}
+}

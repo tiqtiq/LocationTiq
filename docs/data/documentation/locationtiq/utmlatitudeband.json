@@ -1,0 +1,884 @@
+{
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq15UTMLatitudeBandO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UTMLatitudeBand"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UTMLatitudeBand"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "UTMLatitudeBand"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UTMLatitudeBand"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/s12CaseIterableP",
+        "doc:\/\/LocationTiq\/SL",
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH",
+        "doc:\/\/LocationTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/_(_:_:)-3mhhx"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/C",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/D",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/E",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/F",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/G",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/H",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/J",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/K",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/L",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/M",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/N",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/P",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Q",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/R",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/S",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/T",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/U",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/V",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/W",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/X"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Comparable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Equatable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/utmlatitudeband"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SL": {
+  "identifier" : "doc:\/\/LocationTiq\/SL",
+  "title" : "Swift.Comparable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SY": {
+  "identifier" : "doc:\/\/LocationTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : " Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/C": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "C"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/C",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.C",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/c"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/Comparable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Comparable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Comparable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/comparable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/D": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "D"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/D",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.D",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/d"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/E": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "E"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/E",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.E",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/e"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/F": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "F"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/F",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.F",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/f"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/G": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "G"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/G",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.G",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/g"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/H": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "H"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/H",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.H",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/h"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/J": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "J"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/J",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.J",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/j"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/K": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "K"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/K",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.K",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/k"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/L": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "L"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/L",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.L",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/l"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/M": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "M"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/M",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.M",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/m"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/N": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "N"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/N",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.N",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/n"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/P": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "P"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/P",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.P",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/p"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/Q": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Q"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/Q",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.Q",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/q"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/R": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "R"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/R",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.R",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/r"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/rawrepresentable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/S": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "S"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/S",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.S",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/s"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/T": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/T",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.T",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/t"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/U": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "U"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/U",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.U",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/u"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/V": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "V"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/V",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.V",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/v"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/W": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "W"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/W",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.W",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/w"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/X": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "X"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/X",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.X",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/x"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/_(_:_:)-3mhhx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "<"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq15UTMLatitudeBandO",
+      "text" : "UTMLatitudeBand"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq15UTMLatitudeBandO",
+      "text" : "UTMLatitudeBand"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/_(_:_:)-3mhhx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "<(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/_(_:_:)-3mhhx"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMLatitudeBand/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMLatitudeBand\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmlatitudeband\/init(rawvalue:)"
+},
+"doc://LocationTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/LocationTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

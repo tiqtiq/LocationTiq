@@ -1,0 +1,336 @@
+{
+  "abstract" : [
+    {
+      "text" : "Calculates the location (CLLocation) coordinate of the receiver",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinate"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinate\/location(datum:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq13UTMCoordinateV8location5datumSo10CLLocationCAA8UTMDatumV_tF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "location"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "datum"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq8UTMDatumV",
+        "text" : "UTMDatum"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq0A0a",
+        "text" : "Location"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "location(datum:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "location"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "datum"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMDatum",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq8UTMDatumV",
+              "text" : "UTMDatum"
+            },
+            {
+              "kind" : "text",
+              "text" : " = UTMDatum.wgs84) -> "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/Location",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq0A0a",
+              "text" : "Location"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The datum to use, defaults to WGS84 which should be fine for most applications",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "datum"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/utmcoordinate\/location(datum:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/Location": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/Location",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/location"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinate": {
+  "abstract" : [
+    {
+      "text" : "Universal Transverse Mercator (UTM) coordinate which divies the earth into 60 different zones. The coordinates northing and easting are relative to the specified zone, and are also relative to the hemisphere.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinate"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinate/location(datum:)": {
+  "abstract" : [
+    {
+      "text" : "Calculates the location (CLLocation) coordinate of the receiver",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "location"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "datum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq8UTMDatumV",
+      "text" : "UTMDatum"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq0A0a",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinate\/location(datum:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "location(datum:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinate\/location(datum:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMDatum": {
+  "abstract" : [
+    {
+      "text" : "Geodetic datum to define the size of the earth, given as equitorial and polar radius.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMDatum"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMDatum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMDatum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMDatum",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmdatum"
+}
+}
+}

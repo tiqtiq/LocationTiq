@@ -1,0 +1,423 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/init(format:displayOptions:parsingOptions:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq0A19CoordinateFormatterC6format14displayOptions07parsingG0AcA0C6FormatO_AA07DisplayG0VAA07ParsingG0Vtcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "format"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+        "text" : "CoordinateFormat"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "displayOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+        "text" : "DisplayOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "parsingOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+        "text" : "ParsingOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(format:displayOptions:parsingOptions:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "format"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+              "text" : "CoordinateFormat"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .decimalDegrees, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "displayOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+              "text" : "DisplayOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : " = [.suffix], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "parsingOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+              "text" : "ParsingOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : " = [.caseInsensitive])"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/locationcoordinateformatter\/init(format:displayoptions:parsingoptions:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat": {
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions": {
+  "abstract" : [
+    {
+      "text" : "Display options",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DisplayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between Coordinate values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter/init(format:displayOptions:parsingOptions:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsingOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/init(format:displayOptions:parsingOptions:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(format:displayOptions:parsingOptions:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter\/init(format:displayoptions:parsingoptions:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options affecting how a coordinate is parsed from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingoptions"
+}
+}
+}

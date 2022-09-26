@@ -1,0 +1,246 @@
+{
+  "abstract" : [
+    {
+      "text" : "A LocationCoordinateFormatter configured to use degrees minutes seconds (DMS) format.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/degreesMinutesSecondsFormatter"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "LocationTiq",
+    "externalID" : "s:11LocationTiq0A19CoordinateFormatterC021degreesMinutesSecondsD0ACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "degreesMinutesSecondsFormatter"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@LocationTiq@objc(cs)LocationCoordinateFormatter",
+        "text" : "LocationCoordinateFormatter"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "degreesMinutesSecondsFormatter"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "degreesMinutesSecondsFormatter"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@LocationTiq@objc(cs)LocationCoordinateFormatter",
+              "text" : "LocationCoordinateFormatter"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "code" : [
+            "let coordinate = Coordinate(latitude: 48.11638, longitude: -122.77527)",
+            "let formatter = LocationCoordinateFormatter.degreesMinutesSecondsFormatter",
+            "formatter.string(from: coordinate)",
+            "\/\/ \"48° 6' 59\" N, 122° 46' 31\" W\""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/locationcoordinateformatter\/degreesminutessecondsformatter"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between Coordinate values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationCoordinateFormatter/degreesMinutesSecondsFormatter": {
+  "abstract" : [
+    {
+      "text" : "A LocationCoordinateFormatter configured to use degrees minutes seconds (DMS) format.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "degreesMinutesSecondsFormatter"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@LocationTiq@objc(cs)LocationCoordinateFormatter",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationCoordinateFormatter\/degreesMinutesSecondsFormatter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "degreesMinutesSecondsFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationcoordinateformatter\/degreesminutessecondsformatter"
+}
+}
+}

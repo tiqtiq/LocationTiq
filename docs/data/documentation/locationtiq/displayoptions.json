@@ -1,0 +1,413 @@
+{
+  "abstract" : [
+    {
+      "text" : "Display options",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq14DisplayOptionsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "DisplayOptions"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "DisplayOptions"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "DisplayOptions"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "DisplayOptions"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/s25ExpressibleByArrayLiteralP",
+        "doc:\/\/LocationTiq\/s9OptionSetP",
+        "doc:\/\/LocationTiq\/SY",
+        "doc:\/\/LocationTiq\/s10SetAlgebraP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/rawValue"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/compact",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/suffix"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/Equatable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/OptionSet-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/SetAlgebra-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/displayoptions"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SY": {
+  "identifier" : "doc:\/\/LocationTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions": {
+  "abstract" : [
+    {
+      "text" : "Display options",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DisplayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/OptionSet-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/OptionSet-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "OptionSet Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/optionset-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/SetAlgebra-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/SetAlgebra-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "SetAlgebra Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/setalgebra-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/compact": {
+  "abstract" : [
+    {
+      "text" : "If present, spaces will be omitted.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "compact"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/compact",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "compact",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/compact"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/init(rawvalue:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/rawValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/rawValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/rawvalue"
+},
+"doc://LocationTiq/documentation/LocationTiq/DisplayOptions/suffix": {
+  "abstract" : [
+    {
+      "text" : "Use a suffix to to represent the cardinal direction of the coordinate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "suffix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/DisplayOptions\/suffix",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "suffix",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/displayoptions\/suffix"
+},
+"doc://LocationTiq/s10SetAlgebraP": {
+  "identifier" : "doc:\/\/LocationTiq\/s10SetAlgebraP",
+  "title" : "Swift.SetAlgebra",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s25ExpressibleByArrayLiteralP": {
+  "identifier" : "doc:\/\/LocationTiq\/s25ExpressibleByArrayLiteralP",
+  "title" : "Swift.ExpressibleByArrayLiteral",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s9OptionSetP": {
+  "identifier" : "doc:\/\/LocationTiq\/s9OptionSetP",
+  "title" : "Swift.OptionSet",
+  "type" : "unresolvable"
+}
+}
+}

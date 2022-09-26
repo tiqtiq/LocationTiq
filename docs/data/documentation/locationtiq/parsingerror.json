@@ -1,0 +1,580 @@
+{
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq12ParsingErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ParsingError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ParsingError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ParsingError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ParsingError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/s5ErrorP",
+        "doc:\/\/LocationTiq\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/conflict",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidCoordinate",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidDirection",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidLatitudeBand",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeDegrees",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeMinutes",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeSeconds",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidZone",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/noMatch",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/notFound(name:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/Equatable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/parsingerror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError": {
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingError",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/error-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/conflict": {
+  "abstract" : [
+    {
+      "text" : "The suffix and prefix of the coordinate string contradict each other.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conflict"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/conflict",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.conflict",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/conflict"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidCoordinate": {
+  "abstract" : [
+    {
+      "text" : "The matched coordinate is not valid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidCoordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidCoordinate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidCoordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidcoordinate"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidDirection": {
+  "abstract" : [
+    {
+      "text" : "The expected orientation does not match the parsed direction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDirection"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidDirection",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidDirection",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invaliddirection"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMLatitudeBand",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidLatitudeBand",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidlatitudeband"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidRangeDegrees": {
+  "abstract" : [
+    {
+      "text" : "The matched degrees is outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeDegrees"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeDegrees",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeDegrees",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidrangedegrees"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidRangeMinutes": {
+  "abstract" : [
+    {
+      "text" : "The matched minutes are outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeMinutes"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeMinutes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeMinutes",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidrangeminutes"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidRangeSeconds": {
+  "abstract" : [
+    {
+      "text" : "The matched seconds are outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeSeconds"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidRangeSeconds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeSeconds",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidrangeseconds"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/invalidZone": {
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMGridZone",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidZone"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/invalidZone",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidZone",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/invalidzone"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/noMatch": {
+  "abstract" : [
+    {
+      "text" : "No match found",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noMatch"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/noMatch",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.noMatch",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/nomatch"
+},
+"doc://LocationTiq/documentation/LocationTiq/ParsingError/notFound(name:)": {
+  "abstract" : [
+    {
+      "text" : "The named string was not found.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "notFound"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/ParsingError\/notFound(name:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.notFound(name:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/parsingerror\/notfound(name:)"
+},
+"doc://LocationTiq/s5ErrorP": {
+  "identifier" : "doc:\/\/LocationTiq\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s8SendableP": {
+  "identifier" : "doc:\/\/LocationTiq\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

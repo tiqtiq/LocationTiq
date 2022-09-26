@@ -1,0 +1,282 @@
+{
+  "abstract" : [
+    {
+      "text" : "Defines the characters used to annotate coordinate components.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq11SymbolStyleO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SymbolStyle"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SymbolStyle"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "SymbolStyle"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SymbolStyle"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/none",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/simple",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/traditional"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/symbolstyle"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/SymbolStyle": {
+  "abstract" : [
+    {
+      "text" : "Defines the characters used to annotate coordinate components.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SymbolStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/symbolstyle"
+},
+"doc://LocationTiq/documentation/LocationTiq/SymbolStyle/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/symbolstyle\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/SymbolStyle/none": {
+  "abstract" : [
+    {
+      "text" : "Uses no symbols, components must be space delimited.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SymbolStyle.none",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/symbolstyle\/none"
+},
+"doc://LocationTiq/documentation/LocationTiq/SymbolStyle/simple": {
+  "abstract" : [
+    {
+      "text" : "Commonly used on the web and computer systems.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "simple"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/simple",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SymbolStyle.simple",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/symbolstyle\/simple"
+},
+"doc://LocationTiq/documentation/LocationTiq/SymbolStyle/traditional": {
+  "abstract" : [
+    {
+      "text" : "The typographically correct format commonly used on paper charts and maps.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "traditional"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/SymbolStyle\/traditional",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SymbolStyle.traditional",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/symbolstyle\/traditional"
+}
+}
+}

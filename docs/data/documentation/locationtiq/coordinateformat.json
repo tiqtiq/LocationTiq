@@ -1,0 +1,407 @@
+{
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:11LocationTiq16CoordinateFormatO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CoordinateFormat"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CoordinateFormat"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "CoordinateFormat"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CoordinateFormat"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH",
+        "doc:\/\/LocationTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/decimalDegrees",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesDecimalMinutes",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesMinutesSeconds",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/utm"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/CustomStringConvertible-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/Equatable-Implementations",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/coordinateformat"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SY": {
+  "identifier" : "doc:\/\/LocationTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat": {
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/CustomStringConvertible-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/CustomStringConvertible-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CustomStringConvertible Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/customstringconvertible-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/equatable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/rawrepresentable-implementations"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/decimalDegrees": {
+  "abstract" : [
+    {
+      "text" : "Decimal Degrees (DD).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "decimalDegrees"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/decimalDegrees",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateFormat.decimalDegrees",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/decimaldegrees"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/degreesDecimalMinutes": {
+  "abstract" : [
+    {
+      "text" : "Degrees and Decimal Minutes (DDM).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "degreesDecimalMinutes"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesDecimalMinutes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateFormat.degreesDecimalMinutes",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/degreesdecimalminutes"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/degreesMinutesSeconds": {
+  "abstract" : [
+    {
+      "text" : "Degrees, Minutes, Seconds (DMS).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "degreesMinutesSeconds"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/degreesMinutesSeconds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateFormat.degreesMinutesSeconds",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/degreesminutesseconds"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/init(rawvalue:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/CoordinateFormat/utm": {
+  "abstract" : [
+    {
+      "text" : "Universal Transverse Mercator (UTM).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "utm"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/CoordinateFormat\/utm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CoordinateFormat.utm",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/coordinateformat\/utm"
+},
+"doc://LocationTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

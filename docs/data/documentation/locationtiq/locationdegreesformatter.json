@@ -1,0 +1,963 @@
+{
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@LocationTiq@objc(cs)LocationDegreesFormatter",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LocationDegreesFormatter"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocationDegreesFormatter"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LocationDegreesFormatter"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LocationDegreesFormatter"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Instances of LocationDegreesFormatter create string representations of ",
+              "type" : "text"
+            },
+            {
+              "code" : "Degrees",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "and convert textual representations of degrees into ",
+              "type" : "text"
+            },
+            {
+              "code" : "Degrees",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Formatting a degree using a format and symbol style:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let formatter = LocationDegreesFormatter()",
+            "formatter.format = .decimalDegrees",
+            "formatter.symbolStyle = .simple",
+            "format.displayOptions = [.suffix]",
+            "",
+            "formatter.string(from: -122.77527)",
+            "\/\/ \"122.77527° W\""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/objc(pl)NSCoding",
+        "doc:\/\/LocationTiq\/objc(pl)NSCopying",
+        "doc:\/\/LocationTiq\/objc(pl)NSObject",
+        "doc:\/\/LocationTiq\/s7CVarArgP",
+        "doc:\/\/LocationTiq\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/init()",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/init(format:displayOptions:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/displayOptions",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/format",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/maximumDegreesFractionDigits",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/minimumDegreesFractionDigits",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/orientation",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/parsingOptions",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/symbolStyle"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/getObjectValue(_:for:errorDescription:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/string(for:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/string(from:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/locationdegreesformatter"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationDegreesFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/displayOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for display",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/displayOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "displayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/displayoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/format": {
+  "abstract" : [
+    {
+      "text" : "The coordinate format used by the receiver.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/format",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "format",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/format"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/getObjectValue(_:for:errorDescription:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getObjectValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s9AnyObjecta",
+      "text" : "AnyObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSString",
+      "text" : "NSString"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/getObjectValue(_:for:errorDescription:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getObjectValue(_:for:errorDescription:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/getobjectvalue(_:for:errordescription:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/init()"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/init(format:displayOptions:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/init(format:displayOptions:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(format:displayOptions:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/init(format:displayoptions:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/locationDegrees(from:orientation:)": {
+  "abstract" : [
+    {
+      "text" : "Parse a Degrees for a given string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationDegrees"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "orientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq21CoordinateOrientationO",
+      "text" : "CoordinateOrientation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq7Degreesa",
+      "text" : "Degrees"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationDegrees(from:orientation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/locationdegrees(from:orientation:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/maximumDegreesFractionDigits": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of digits after the decimal separator for degrees.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maximumDegreesFractionDigits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/maximumDegreesFractionDigits",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maximumDegreesFractionDigits",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/maximumdegreesfractiondigits"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/minimumDegreesFractionDigits": {
+  "abstract" : [
+    {
+      "text" : "The minimum number of digits after the decimal separator for degrees.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minimumDegreesFractionDigits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/minimumDegreesFractionDigits",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "minimumDegreesFractionDigits",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/minimumdegreesfractiondigits"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/orientation": {
+  "abstract" : [
+    {
+      "text" : "Defines whether a coordinate is expected to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq21CoordinateOrientationO",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/orientation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orientation",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/orientation"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/parsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for parsing degree values from strings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "parsingOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/parsingOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "parsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/parsingoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/string(for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/string(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/string(for:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/string(from:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a string containing the formatted value of the provided ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq7Degreesa",
+      "text" : "Degrees"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/string(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/string(from:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/LocationDegreesFormatter/symbolStyle": {
+  "abstract" : [
+    {
+      "text" : "Defines the characters used to annotate coordinate components.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbolStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq11SymbolStyleO",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/LocationDegreesFormatter\/symbolStyle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbolStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/locationdegreesformatter\/symbolstyle"
+},
+"doc://LocationTiq/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSCoding",
+  "title" : "Foundation.NSCoding",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/objc(pl)NSCopying": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSCopying",
+  "title" : "Foundation.NSCopying",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/LocationTiq\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s7CVarArgP": {
+  "identifier" : "doc:\/\/LocationTiq\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

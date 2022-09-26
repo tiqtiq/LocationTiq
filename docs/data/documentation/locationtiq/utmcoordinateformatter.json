@@ -1,0 +1,776 @@
+{
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their string representations using the Universal Transverse Mercator (UTM) coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@LocationTiq@objc(cs)UTMCoordinateFormatter",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UTMCoordinateFormatter"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LocationTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UTMCoordinateFormatter"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "UTMCoordinateFormatter"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UTMCoordinateFormatter"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Instances of UTMCoordinateFormatter create UTM string representations of ",
+              "type" : "text"
+            },
+            {
+              "code" : "Coordinate",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values, and convert UTM textual representations of coordinates into ",
+              "type" : "text"
+            },
+            {
+              "code" : "Coordinate",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Formatting a coordinate with the suffix display option:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let formatter = UTMCoordinateFormatter()",
+            "formatter.displayOptions =  [.suffix]",
+            "",
+            "let coordinate = Coordinate(latitude: 48.11638, longitude: -122.77527)",
+            "formatter.string(from: coordinate)",
+            "\/\/ \"10U 516726m E 5329260m N\""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/objc(pl)NSCoding",
+        "doc:\/\/LocationTiq\/objc(pl)NSCopying",
+        "doc:\/\/LocationTiq\/objc(pl)NSObject",
+        "doc:\/\/LocationTiq\/s7CVarArgP",
+        "doc:\/\/LocationTiq\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/LocationTiq\/SQ",
+        "doc:\/\/LocationTiq\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/init()",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/init(coder:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/datum",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/displayOptions",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/parsingOptions"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/coordinate(from:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/getObjectValue(_:for:errorDescription:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/string(for:)",
+        "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/string(from:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/locationtiq\/utmcoordinateformatter"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LocationTiq/SH": {
+  "identifier" : "doc:\/\/LocationTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/SQ": {
+  "identifier" : "doc:\/\/LocationTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/documentation/LocationTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LocationTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their string representations using the Universal Transverse Mercator (UTM) coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/coordinate(from:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " created by parsing a UTM string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "coordinate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq10Coordinatea",
+      "text" : "Coordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/coordinate(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "coordinate(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/coordinate(from:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/datum": {
+  "abstract" : [
+    {
+      "text" : "The datum to use.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "datum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq8UTMDatumV",
+      "text" : "UTMDatum"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/datum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "datum",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/datum"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/displayOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for displaying UTM coordinates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/displayOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "displayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/displayoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/getObjectValue(_:for:errorDescription:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getObjectValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s9AnyObjecta",
+      "text" : "AnyObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSString",
+      "text" : "NSString"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/getObjectValue(_:for:errorDescription:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getObjectValue(_:for:errorDescription:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/getobjectvalue(_:for:errordescription:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/init()"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/init(coder:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coder"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSCoder",
+      "text" : "NSCoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/init(coder:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(coder:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/init(coder:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/parsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for parsing coordinates strings",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "parsingOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/parsingOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "parsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/parsingoptions"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/string(for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/string(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/string(for:)"
+},
+"doc://LocationTiq/documentation/LocationTiq/UTMCoordinateFormatter/string(from:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a string containing the UTM formatted value of the provided ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:11LocationTiq10Coordinatea",
+      "text" : "Coordinate"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/LocationTiq\/documentation\/LocationTiq\/UTMCoordinateFormatter\/string(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/locationtiq\/utmcoordinateformatter\/string(from:)"
+},
+"doc://LocationTiq/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSCoding",
+  "title" : "Foundation.NSCoding",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/objc(pl)NSCopying": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSCopying",
+  "title" : "Foundation.NSCopying",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/LocationTiq\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/LocationTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/LocationTiq\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://LocationTiq/s7CVarArgP": {
+  "identifier" : "doc:\/\/LocationTiq\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}
